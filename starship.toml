@@ -1,0 +1,154 @@
+# Move the directory to the second line
+# format = "$directory$all$character"
+format = """
+[┌>](bold green)$username\
+$hostname\
+$localip\
+$shlvl\
+$singularity\
+$kubernetes\
+$directory\
+$vcsh\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$docker_context\
+$package\
+$cmake\
+$cobol\
+$container\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$helm\
+$java\
+$julia\
+$kotlin\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$swift\
+$terraform\
+$vlang\
+$vagrant\
+$zig\
+$nix_shell\
+$conda\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$env_var\
+$crystal\
+$custom\
+$sudo\
+$cmd_duration\
+$line_break\
+$jobs\
+$battery\
+$time\
+$status\
+$shell\
+[└─>](bold green) """
+
+
+[character]
+disabled = true
+# success_symbol = "[➜](cyan)"
+# error_symbol = "[✗](red)"
+# vicmd_symbol = "[](green)"
+
+[aws]
+symbol = "  "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+read_only = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[shlvl]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
+
