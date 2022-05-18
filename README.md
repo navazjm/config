@@ -21,16 +21,13 @@ cd dotfiles
 ```
 
 ```sh
-./install.sh
+./setup.sh
 ```
-
-_Need elevated privileges, so enter your password and go grab a coffee :coffee:_ 
-
 
 ## Main Tools Used
 
 - [Alacritty](https://alacritty.org/)
-- [LeftWM](https://github.com/leftwm/leftwm)
+- [LeftWM](https://github.com/leftwm/leftwm) _Currently not using_
 - [Neovim](https://neovim.io/)
 - [Tmux](https://github.com/tmux/tmux)
 
