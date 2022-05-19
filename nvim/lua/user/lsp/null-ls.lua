@@ -11,10 +11,7 @@ local diagnostics = null_ls.builtins.diagnostics
 null_ls.setup({
 	debug = false,
 	sources = {
-		diagnostics.flake8,
-		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
-		formatting.gofmt,
 		formatting.clang_format,
 		formatting.prettier,
 		diagnostics.eslint,
