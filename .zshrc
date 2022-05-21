@@ -1,3 +1,5 @@
+PATH=$PATH:~/.cargo/bin
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -33,7 +35,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 eval "$(starship init zsh)"
 
-eval "$(mcfly init zsh)"
-
 source $ZSH/oh-my-zsh.sh
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias nvim="~/nvim/bin/nvim"
+
+source <(mcfly init zsh)
