@@ -62,7 +62,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 1.0
+  opacity: 0.9
 
   # Startup Mode (changes require restart)
   #
@@ -107,21 +107,21 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: "SauceCodePro Nerd Font"
+    family: "Monofur Nerd Font Mono"
     style: Regular
 
   # The bold font face
   bold:
-    family: "SauceCodePro Nerd Font"
+    family: "Monofur Nerd Font Mono"
     style: Black
 
   # The italic font face
   italic:
-    family: "SauceCodePro Nerd Font"
+    family: "Monofur Nerd Font Mono"
     style: "Italic"
 
   # Point size of the font
-  size: 11
+  size: 14
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
@@ -339,7 +339,7 @@ debug:
   # Highlight window damage information.
   highlight_damage: false
 
- # Colors (Doom One)
+# Colors (Doom One)
 colors:
   # Default colors
   primary:
