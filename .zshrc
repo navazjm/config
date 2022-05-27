@@ -49,6 +49,7 @@ source <(mcfly init zsh)
 alias ls="exa -la"
 alias la="exa -la --grid"
 
+alias gs="git status"
 alias ga="git add"
 alias gc="git commit"
 alias gcm="git commit -m"
