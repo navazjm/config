@@ -1,4 +1,5 @@
 PATH=$PATH:~/.cargo/bin
+export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -40,4 +41,19 @@ source $ZSH/oh-my-zsh.sh
 
 alias nvim="~/nvim/bin/nvim"
 
+# export MCFLY_DISABLE_MENU=TRUE
+# export MCFLY_KEY_SCHEME=vim
+export MCFLY_RESULTS_SORT=LAST_RUN
 source <(mcfly init zsh)
+
+alias ls="exa -la"
+alias la="exa -la --grid"
+
+alias ga="git add"
+alias gc="git commit"
+alias gcm="git commit -m"
+alias gcam="git commit -am"
+alias gp="git push"
+alias gpl="git pull"
+alias gf="git fetch"
+alias gd="git diff"
