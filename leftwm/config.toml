@@ -121,12 +121,12 @@ key = "Down"
 [[keybind]]
 command = "NextLayout"
 modifier = ["modkey", "Control"]
-key = "Up"
+key = "j"
 
 [[keybind]]
 command = "PreviousLayout"
 modifier = ["modkey", "Control"]
-key = "Down"
+key = "k"
 
 [[keybind]]
 command = "FocusWorkspaceNext"
