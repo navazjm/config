@@ -14,6 +14,12 @@ key = "m"
 
 [[keybind]]
 command = "Execute"
+value = "$HOME/.config/leftwm/themes/current/rofi/powermenu.sh"
+modifier = ["modkey"]
+key = "l"
+
+[[keybind]]
+command = "Execute"
 value = "firefox"
 modifier = ["modkey"]
 key = "b"
