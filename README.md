@@ -27,7 +27,7 @@ cd dotfiles
 ## Main Tools Used
 
 - [Alacritty](https://alacritty.org/)
-- [LeftWM](https://github.com/leftwm/leftwm) _Currently not using_
+- [LeftWM](https://github.com/leftwm/leftwm)
 - [Neovim](https://neovim.io/)
 - [Tmux](https://github.com/tmux/tmux)
 
@@ -39,7 +39,7 @@ _If a tool is not specified below, it uses default configurations_
 
 ![Alacritty](./images/alacritty.png)
 
-- [Alacritty](./alacritty/alacritty.yml) is my terminal emulator of choice. I love how fast and minimal it is. I also love how easy it is to customize it. You can find more information on Alacritty [here](https://alacritty.org/). I am using the [Doom One](https://github.com/eendroroy/alacritty-theme/blob/master/themes/doom_one.yml) color scheme, but modify the background color and foreground color to match my Neovim theme. 
+- [Alacritty](./alacritty/alacritty.yml) is my terminal emulator of choice. I love how fast and minimal it is. I also love how easy it is to customize it. You can find more information on Alacritty [here](https://alacritty.org/). I am using the [Doom One](https://github.com/eendroroy/alacritty-theme/blob/master/themes/doom_one.yml) color scheme, but modify the background color and foreground color to match my Neovim theme. The font I use is [Monofur Nerd Font](https://www.nerdfonts.com/font-downloads)
 - [Zsh] (./.zshrc) is my terminal shell. I have paired it with Oh-my-zsh, which allows me to install plugins like auto-suggestion and many more. You can find more information on Zsh [here](https://www.zsh.org/) and Oh-my-zsh [here](https://ohmyz.sh/)
 - [Starship](./starship.toml) is my shell prompt. I only changed the icons to use Nerd Font icons. You can find more information [here](https://starship.rs/presets/#nerd-font-symbols) 
 
@@ -48,7 +48,7 @@ _If a tool is not specified below, it uses default configurations_
 ![LeftWM]()
 
 - [LeftWM](./leftwm) is a tiling window manager written in Rust. I decided to use LeftWM after trying AwesomeWM for a week. In my opinion, LeftWM is simple to configure, using a toml file to configure all your keybindings. Also, it has a [community themes page](https://github.com/leftwm/leftwm-community-themes) and [LeftWM-Theme tool](https://github.com/leftwm/leftwm-theme) to easy install a theme that you like without having to configure one yourself.
-- I am using a modified community theme called [Epitaph](https://github.com/VentGrey/Epitaph). It was inspired by Doom-one, which is pretty similar to OneDark. I am modified it to use a darker background color to match my Neovim and Alacritty configuration. I also removed the random wallpaper generator, and used a wallpaper from a favorite game of mine, Hollow Knight. The wallpaper colors also match my custom keyboard key caps colors. 
+- I am using a modified community theme called [Garden](https://github.com/taylor85345/leftwm-theme-garden). Instead of using the recommended GTK/Kvantum theme, I am using [Layan-solid](https://store.kde.org/p/1325246). Also, I turned off all transparency for all windows, besides my terminal. For icons, I am using [Tela](https://store.kde.org/p/1279924). For the Garden theme, I am using [SauceCodePro Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 ### Neovim
 
@@ -64,7 +64,7 @@ _If a tool is not specified below, it uses default configurations_
 ![Tmux](./images/tmux.png)
 
 - [Tmux](https://github.com/tmux/tmux) is a great combo with Alacritty. You can easily add more terminal windows within one, to keep your workspace organized. It can also save sessions so a simple command can bring you right back to your project at ease.
-- There is not much to my tmux config, besides binding prefix to Ctrl+f 
+- There is not much to my tmux config, besides binding prefix to Ctrl+j 
 - I use [tpm](https://github.com/tmux-plugins/tpm) to install plugins, which needs to be installed before using my tmux config file.
 - Currently, I only have three plugins installed:
   - [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible), improves default settings and keybindings.    
