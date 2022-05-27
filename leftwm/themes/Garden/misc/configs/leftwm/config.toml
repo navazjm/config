@@ -4,35 +4,33 @@ focus_new_windows = true
 modkey = "Mod4"
 workspaces = []
 #tags = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-tags = ["", "", "", "辶", "", "ﭮ", "", "ﮕ", "漣"]
+tags = ["", "", "", "", "輸", "", "", "ﮕ", ""]
+
+[[scratchpad]]
+name = "Kitty"
+value = "kitty"
+
+[[keybind]]
+command = "ToggleScratchPad"
+value = "Kitty"
+modifier = ["modkey"]
+key = "grave"
 
 [[keybind]]
 command = "Execute"
 value = "rofi -no-config -no-lazy-grab -show drun -theme $HOME/.config/leftwm/themes/current/rofi/launcher.rasi"
 modifier = ["modkey"]
-key = "m"
-
-[[keybind]]
-command = "Execute"
-value = "firefox"
-modifier = ["modkey"]
-key = "b"
-
-[[keybind]]
-command = "Execute"
-value = "dolphin"
-modifier = ["modkey"]
 key = "d"
 
 [[keybind]]
 command = "Execute"
-value = "systemsettings"
-modifier = ["modkey"]
-key = "s"
+value = "$BROWSER"
+modifier = ["modkey", "Shift"]
+key = "b"
 
 [[keybind]]
 command = "Execute"
-value = "alacritty"
+value = "kitty"
 modifier = ["modkey"]
 key = "Return"
 
@@ -307,7 +305,6 @@ key = "y"
 
 [[keybind]]
 command = "Execute"
-value = "networkmanager"
+value = "networkmanager_dmenu"
 modifier = ["modkey"]
 key = "n"
-
