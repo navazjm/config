@@ -40,7 +40,7 @@ _If a tool is not specified below, it uses default configurations_
 ![Alacritty](./images/alacritty.png)
 
 - [Alacritty](./alacritty/alacritty.yml) is my terminal emulator of choice. I love how fast and minimal it is. I also love how easy it is to customize it. You can find more information on Alacritty [here](https://alacritty.org/). I am using the [Doom One](https://github.com/eendroroy/alacritty-theme/blob/master/themes/doom_one.yml) color scheme, but modify the background color and foreground color to match my Neovim theme. The font I use is [Monofur Nerd Font](https://www.nerdfonts.com/font-downloads)
-- [Zsh] (./.zshrc) is my terminal shell. I have paired it with Oh-my-zsh, which allows me to install plugins like auto-suggestion and many more. You can find more information on Zsh [here](https://www.zsh.org/) and Oh-my-zsh [here](https://ohmyz.sh/)
+- [Zsh](./.zshrc) is my terminal shell. I have paired it with Oh-my-zsh, which allows me to install plugins like auto-suggestion and many more. You can find more information on Zsh [here](https://www.zsh.org/) and Oh-my-zsh [here](https://ohmyz.sh/)
 - [Starship](./starship.toml) is my shell prompt. I only changed the icons to use Nerd Font icons. You can find more information [here](https://starship.rs/presets/#nerd-font-symbols) 
 
 ### LeftWM
