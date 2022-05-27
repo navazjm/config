@@ -1,5 +1,6 @@
 focus_behaviour = "Sloppy" # Can be Sloppy, ClickTo, or Driven
 focus_new_windows = true
+disable_current_tag_swap = true
 
 modkey = "Mod4"
 workspaces = []
