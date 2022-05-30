@@ -65,3 +65,19 @@ _If a tool is not specified below, it uses default configurations_
   - [tmux-onedark-theme](https://github.com/odedlaz/tmux-onedark-theme), which converts the boring lime green tmux bar, with one styled like a powerline prompt in onedark color scheme.
 
 ### Yabai | Spacebar | Skhd | Karabiner
+
+```sh
+sudo yabai --uninstall-sa
+```
+
+```sh
+sudo yabai --install-sa
+```
+
+```sh
+sudo yabai --load-sa
+```
+
+```sh
+brew services restart skhd
+```
