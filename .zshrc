@@ -1,5 +1,5 @@
 PATH=$PATH:~/.cargo/bin
-export QT_QPA_PLATFORMTHEME="qt5ct"
+# export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -31,22 +31,18 @@ plugins=(
   copybuffer
 )
 
-
 eval "$(starship init zsh)"
 
 source $ZSH/oh-my-zsh.sh
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-# alias nvim="~/nvim/bin/nvim"
-
 # export MCFLY_DISABLE_MENU=TRUE
+# export MCFLY_LIGHT=TRUE
 export MCFLY_KEY_SCHEME=vim
 export MCFLY_RESULTS_SORT=LAST_RUN
-export MCFLY_LIGHT=TRUE
 source <(mcfly init zsh)
 
 alias ls="exa -la"
@@ -61,3 +57,6 @@ alias gp="git push"
 alias gpl="git pull"
 alias gf="git fetch"
 alias gd="git diff"
+
+alias cl="clear"
+alias ..="cd .."
