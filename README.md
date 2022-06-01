@@ -1,9 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="https://mjn-reame-logos.s3.us-east-2.amazonaws.com/dotfiles.jpg" alt="Logo" width="80">
+  <img src="" alt="Logo" width="80">
 
-  <h3 align="center">Dotfiles</h3>
+  <h3 align="center">Config Files</h3>
 
   <p align="center">
   All my configurations for the tools I use
@@ -13,11 +13,11 @@
 ## Installation
 
 ```sh
-git clone https://github.com/michaelnavs/dotfiles.git
+git clone https://github.com/michaelnavs/config.git
 ```
 
 ```sh
-cd dotfiles
+cd config
 ```
 
 ```sh
