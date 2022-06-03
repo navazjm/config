@@ -10,6 +10,12 @@
   </p>
 </p>
 
+## Todo
+
+- Update images with new setup on MacOS
+- Update setup.sh
+- Store frequently used wallpapers here
+
 ## Installation
 
 ```sh
