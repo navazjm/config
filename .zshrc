@@ -1,4 +1,6 @@
 PATH=$PATH:~/.cargo/bin
+PATH=$PATH:~/go/bin/
+
 # export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # Path to your oh-my-zsh installation.
