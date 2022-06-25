@@ -7,8 +7,11 @@
 -- endtry
 -- ]])
 
-require("onedark").setup {
-  style = "warmer",
-  transparent = true
-}
-require("onedark").load()
+-- require("onedark").setup {
+--   style = "warmer",
+--   transparent = true
+-- }
+-- require("onedark").load()
+
+-- setup must be called before loading
+vim.cmd("colorscheme nordfox")
