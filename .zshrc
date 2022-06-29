@@ -33,7 +33,9 @@ plugins=(
   copybuffer
 )
 
+
 eval "$(starship init zsh)"
+# eval "$(oh-my-posh init zsh --config ~/.config/spaceship.omp.json)"
 
 source $ZSH/oh-my-zsh.sh
 
