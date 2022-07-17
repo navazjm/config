@@ -33,8 +33,7 @@ plugins=(
   copybuffer
 )
 
-
-eval "$(oh-my-posh init zsh --config ~/.config/negligible.omp.json)"
+eval "$(starship init zsh)"
 
 source $ZSH/oh-my-zsh.sh
 
